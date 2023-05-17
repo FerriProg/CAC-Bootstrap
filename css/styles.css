@@ -198,10 +198,10 @@ footer {
   }
 
   .carousel-item {
-    background-size: cover !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-    height: 88% !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 88%;
   }
 
   .carousel-item img {
