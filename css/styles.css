@@ -12,10 +12,6 @@ body {
   font-weight: 400;
 }
 
-.customViewheight {
-  height: 100vh;
-}
-
 .backgroundColor {
   background-color: rgb(53, 58, 64);
 }
@@ -184,10 +180,6 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
-  .customViewheight {
-    height: 48vh;
-  }
-
   .carouselModifier {
     height: 83%;
   }
@@ -196,11 +188,6 @@ footer {
     filter: brightness(30%);
     height: initial;
   }
-
-  /* .toggleCenter {
-    display: flex;
-    justify-content: center;
-  } */
 
   .carousel-item img {
     object-fit: cover;
