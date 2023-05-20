@@ -253,25 +253,45 @@
     <footer class="container-fluid">
       <div class="container">
         <div class="row py-4 align-items-center violetHover">
-          <a class="col text-decoration-none text-center customColor" href=""
+          <a
+            class="col-sm-12 customCol text-decoration-none text-center customColor customMargin"
+            href=""
             >Preguntas frecuentes</a
           >
-          <a class="col text-decoration-none text-center customColor" href=""
+          <!-- Investigation: since we have an odd number of columns and bootstrap works by default with even columns,
+          the only way to center odd columns is to just use the class "col". But since we want col-sm-12 for mobile,
+          if we do class="col-sm-12 col", then col will NOT be applied since col-sm-12 applies for any width >= 576px.
+          If we do class="col-sm-12 col-md", then col-md will NOT be applied since there are specificity problems.
+          So the only hack to center odd columns is to add a customCol class that will do exactly the same as col,
+          but this will be more specific since it will apply for each screen. -->
+          <a
+            class="col-sm-12 customCol text-decoration-none text-center customColor customMargin"
+            href=""
             >Contáctanos</a
           >
-          <a class="col text-decoration-none text-center customColor" href=""
+          <a
+            class="col-sm-12 customCol text-decoration-none text-center customColor customMargin"
+            href=""
             >Prensa</a
           >
-          <a class="col text-decoration-none text-center customColor" href=""
+          <a
+            class="col-sm-12 customCol text-decoration-none text-center customColor customMargin"
+            href=""
             >Conferencias</a
           >
-          <a class="col text-decoration-none text-center customColor" href=""
+          <a
+            class="col-sm-12 customCol text-decoration-none text-center customColor customMargin"
+            href=""
             >Términos y condiciones</a
           >
-          <a class="col text-decoration-none text-center customColor" href=""
+          <a
+            class="col-sm-12 customCol text-decoration-none text-center customColor customMargin"
+            href=""
             >Privacidad</a
           >
-          <a class="col text-decoration-none text-center customColor" href=""
+          <a
+            class="col-sm-12 customCol text-decoration-none text-center customColor customMargin"
+            href=""
             >Estudiantes</a
           >
           <a href=""><i class="fa-brands fa-whatsapp icon"></i></a>

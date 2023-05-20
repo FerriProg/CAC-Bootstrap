@@ -248,6 +248,10 @@ footer {
   .right {
     height: 50vh;
   }
+
+  .customMargin {
+    margin-bottom: 0.5rem;
+  }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1400px) {
@@ -261,5 +265,15 @@ footer {
 
   textarea {
     font-size: 1.5rem;
+  }
+
+  .customCol {
+    flex: 1 0 0%; /*Exactly the same as col, it was necessary to do it this way for specificity*/
+  }
+}
+
+@media screen and (min-width: 1401px) {
+  .customCol {
+    flex: 1 0 0%; /*Exactly the same as col, it was necessary to do it this way for specificity*/
   }
 }
